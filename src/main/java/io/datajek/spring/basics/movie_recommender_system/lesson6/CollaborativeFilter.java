@@ -1,9 +1,9 @@
-package io.datajek.spring.basics.movie_recommender_system.lesson4;
+package io.datajek.spring.basics.movie_recommender_system.lesson6;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-@Primary
+
 @Component
 public class CollaborativeFilter implements Filter {
     public String[] getRecommendations(String movie) {
